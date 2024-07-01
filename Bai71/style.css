@@ -1,0 +1,11 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 4px dotted red;
+    background-image: url(./cun.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

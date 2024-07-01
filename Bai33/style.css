@@ -1,0 +1,37 @@
+ /* 1. Tác dụng lên selector khi di chuột qua
+ 
+ #line2:hover {
+     color: pink;
+     font-size: 30px
+ }
+ .dichuot:hover{
+    color: pink;
+    font-size: 30px
+ } */
+ /*  2. Tác dụng lên selector khi nhấn giữ chuột
+ .dichuot:active {
+     color: pink;
+     font-size: 30px
+ } */
+
+ /* 3. Tác dụng lên selector khi chưa click vào truy cập
+  .click_me:link {
+     color: chocolate
+ } */
+
+ /*4. Tác dụng lên selector khi chưa click vào truy cập
+  .click_me:visited {
+     color: violet;
+ } */
+
+ /* .div_elm:empty {
+     width: 200px;
+     height: 200px;
+     background-color: blue;
+ }
+ */
+
+
+ h2:target {
+     color: blue
+ }

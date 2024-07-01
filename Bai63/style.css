@@ -1,0 +1,13 @@
+strong {
+    /* text-decoration: none;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: overline line-through; */
+    text-decoration: underline dotted bisque 10px;
+}
+
+.line {
+    text-indent: 40px;
+    text-transform: capitalize;
+}

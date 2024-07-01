@@ -1,0 +1,40 @@
+p::first-line {
+    color: red;
+}
+
+span {
+    display: inline-block;
+}
+
+span::first-line {
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: blue
+}
+
+*::selection {
+    background-color: brown;
+    color: #fff;
+}
+
+li::marker {
+    color: brown;
+    font-size: 40px;
+}
+
+.box::before {
+    content: "Em ở đằng trước nè";
+}
+
+.box::after {
+    display: inline-block;
+    content: "";
+    width: 100px;
+    height: 5px;
+    color: red;
+    background-color: pink;
+    border-radius: 999px;
+}

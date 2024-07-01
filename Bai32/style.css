@@ -1,0 +1,10 @@
+ /* [title*="tuhoc.cc"] {
+     color: red;
+ }
+
+ [title^="pic"] {
+     color: pink
+ } */
+ [title$="123"] {
+     color: red
+ }

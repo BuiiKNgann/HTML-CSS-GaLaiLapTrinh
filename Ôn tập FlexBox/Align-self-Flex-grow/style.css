@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    background-color: gray;
+    align-items: flex-start;
+    min-height: 200px;
+}
+
+.box {
+    /* width: 30%; */
+    background-color: blue;
+}
+
+.box1 {
+    /* align-self: flex-end; */
+    flex-grow: 1;
+}
+
+.box2 {
+    flex-grow: 2;
+}

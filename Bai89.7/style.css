@@ -1,0 +1,15 @@
+.container{
+    height: 150px;
+    display: flex;
+    background-color: cyan;
+align-items: flex-start;
+
+}
+
+.box{
+    background-color: blue;
+    border: 1px splif black;
+}
+.box3,.box2{
+    align-self: flex-end;
+}

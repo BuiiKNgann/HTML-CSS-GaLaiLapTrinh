@@ -1,0 +1,23 @@
+/* p:first-child {
+    color: red;
+    font-size: 30px;
+}
+
+P:last-child{
+    color: violet;
+    font-size: 30px;
+}
+
+p:nth-child(2){
+    color:burlywood
+} */
+
+/* 
+p:nth-last-child(2) {
+    color: red;
+    font-size: 20px;
+} */
+
+p:only-child{
+    color:blue;
+}

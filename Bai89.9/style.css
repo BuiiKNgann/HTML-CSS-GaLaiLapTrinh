@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+
+}
+
+.box {
+    /* flex-basis: 200px;
+    width: 100px; */
+    /* 
+    1. nếu max-width < flex-basic ->max-width
+    2. nếu max-width > flex-basic -> flex-basis
+    
+    */
+    /* flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 100px; */
+    flex: 1;
+}
+
+.box1 {
+    background-color: cyan;
+}
+
+.box2 {
+    background-color: rebeccapurple;
+    order: 1;
+}
+
+.box3 {
+    background-color: red;
+}
+
+.box4 {
+    background-color: blue;
+}

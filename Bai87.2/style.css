@@ -1,0 +1,41 @@
+.box {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background: pink;
+
+}
+
+.content {
+    position: relative;
+    background: cyan;
+    width: 400px;
+    margin: 40px;
+}
+
+.box1 {
+    background: red;
+
+}
+
+.box2 {
+    background: blue;
+    position: absolute;
+    left: 40px;
+    right: 50px;
+}
+
+.box3 {
+    background: green;
+
+}
+
+h1 {
+    background: purple;
+}

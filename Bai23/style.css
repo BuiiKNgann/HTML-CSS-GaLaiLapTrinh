@@ -1,0 +1,14 @@
+h1 {
+    /*Màu chữ */
+    color: blue;
+    /* Kiểu chữ*/
+    font-style: italic;
+    /*font chữ */
+    font-family: Arial, Helvetica, sans-serif;
+    /*chuyển viết hoa thường*/
+    text-transform: lowercase;
+    /*căn giữa */
+    text-align: center;
+    /*cỡ chữ*/
+    font-size: 18px;
+}

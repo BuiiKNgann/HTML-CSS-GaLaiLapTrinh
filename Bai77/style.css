@@ -1,0 +1,36 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 50px dotted rgb(218, 237, 6);
+    padding: 50px;
+    /* 
+    background-color: violet;
+    background-image: url(./1.PNG); */
+    /*   background-position: top right;
+    background-position: bottom left;
+    background-position: left;
+    background-position: right;
+    background-position: bottom;
+    background-position: center; */
+    /* Đơn vị: % */
+    /* background-position: 0 100%; */
+    /* background-position: đơn vị tuyệt đối */
+    /* background-position: 0 100px; */
+
+    /* 
+    background-size: contain; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-origin: padding-box;
+    background-origin: border-box;
+    background-origin: content-box; */
+
+    /* background-clip: padding-box;
+    background-clip: content-box; */
+
+    background: pink;
+    background: pink url(./1.PNG);
+    background: pink url(./1.PNG) left;
+    background: pink url(./1.PNG) left / cover no-repeat padding-box border-box;
+    background: pink url(./1.PNG) left / cover no-repeat padding-box border-box fixed;
+}

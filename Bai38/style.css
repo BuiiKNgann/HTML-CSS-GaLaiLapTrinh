@@ -1,0 +1,20 @@
+/* .top:not(:first-of-type) {
+    background-color: yellow;
+} */
+/* universal selector*/
+*{
+    color:red !important;
+}  
+
+/* element selector */
+h1 {
+    color: blue !important;
+}
+
+/* class -pseudo class */
+.demo{
+    color:green;
+}
+#theh1{
+    color: yellowgreen
+}

@@ -1,0 +1,7 @@
+strong {
+    /* padding: 30px; */
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    display: inline-block;
+}

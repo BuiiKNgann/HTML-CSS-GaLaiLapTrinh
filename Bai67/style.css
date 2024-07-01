@@ -1,0 +1,16 @@
+h1{
+    width: 200px;
+    background-color: pink;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* làm dấu... ở dòng thứ 2 */
+h2{
+    background-color: aqua;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}

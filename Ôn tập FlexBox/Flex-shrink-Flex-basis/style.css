@@ -1,0 +1,16 @@
+.container {
+    height: 150px;
+    display: flex;
+    background-color: #ccc;
+    flex-direction: column;
+}
+
+.box {
+    background-color: blue;
+    /* width: 30%; */
+    flex-basis: 30%;
+}
+
+/* .box1 {
+    flex-shrink: 0;
+} */

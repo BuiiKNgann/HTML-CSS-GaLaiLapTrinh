@@ -1,0 +1,22 @@
+.box {
+    width: 400px;
+    height: 200px;
+    border: 5px dashed blue;
+    background-image: url(https://e.khoahoc.tv/photos/image/2018/05/24/cho-con.jpg);
+    background-position: top right;
+    background-position: top left;
+    background-position: bottom left;
+    background-position: bottom right;
+    background-position: top;
+    background-position: bottom;
+    background-position: left;
+    background-position: right;
+    background-position: center;
+
+    background-position: 0% 0%;
+}
+
+img {
+    width: 60%;
+    margin-top: 50px;
+}

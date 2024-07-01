@@ -1,0 +1,27 @@
+h1 {
+    /* color: rgb(97, 97, 154); */
+    /* Kênh rgba */
+    /* color: rgba(255, 0, 0, 0.5); */
+    color: rgb(255 0 0 / 0.5);
+    background-color: blueviolet;
+
+    color: #0150cc;
+
+
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: pink;
+    /* background-color: currentColor; */
+    outline: 5px solid currentColor;
+    outline-offset: 5px;
+}
+
+.box_child {
+    width: 50px;
+    height: 50px;
+    background-color: currentColor;
+}

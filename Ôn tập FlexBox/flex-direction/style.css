@@ -1,0 +1,22 @@
+.container {
+
+    display: flex;
+    background-color: cyan;
+    /* flex-wrap: wrap; */
+    /* theo cột */
+    /* flex-direction: row; */
+    /* Theo hàng */
+    /* flex-direction: column-reverse; */
+    min-height: 200px;
+    /* align-items: stretch; */
+    align-items: flex-start;
+    /* align-items: flex-end; */
+
+    /* Viết tắt */
+    flex-flow: wrap row;
+}
+
+.box {
+
+    background-color: blue;
+}
